@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<PackageProjectUrl>http://loxifi.com/Projects/Loxifi.FileSizeParsing</PackageProjectUrl>
-		<Version>0.1.0</Version>
+		<Version>0.8.0</Version>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageIcon>Properties\Icon.png</PackageIcon>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -30,8 +30,5 @@
 		<None Include="Properties\License.txt" Pack="true" PackagePath="Properties\License.txt" />
 		<None Include="Properties\Icon.png" Pack="true" PackagePath="Properties\Icon.png" />
 		<None Include="README.md" Pack="true" PackagePath="README.md" />
-	</ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Microsoft.Diagnostics.Runtime" Version="2.3.405304" />
 	</ItemGroup>
 </Project>
